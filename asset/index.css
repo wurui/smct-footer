@@ -1,3 +1,10 @@
 .oxmod-smct-footer{
 /* CSS */
+
+    border-top:dotted 1px #eee;
+    font-weight: 300;
+    font-size:12px;
+    padding:5px;
+    text-align: center;
+
  }

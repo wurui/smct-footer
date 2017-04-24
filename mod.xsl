@@ -2,9 +2,18 @@
     <xsl:template match="/root" name="wurui.smct-footer">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-smct-footer" ox-mod="smct-footer">
-            <h1>
-                This is mod smct-footer;
-            </h1>
+            <footer>
+                <span>
+                    &#169;杭州声罄科技有限公司
+                    &#160;&#160;
+                    &#160;&#160;联系方式
+                    <a href="mailto:smct@senking.tech">smct@senking.tech</a>
+                </span>
+                <br/>
+                <span>
+                    浙ICP备15031769号-1
+                </span>
+            </footer>
         </div>
     </xsl:template>
 </xsl:stylesheet>
